@@ -9,9 +9,12 @@ Automation Step:
 2. Select লেখক from the menu
 3. Select হুমায়ুন আহমেদ
 4. Filter Categories like সমকালীন উপন্যাস, রচনা সংকলন ও সমগ্র
-5. Scroll Down and go to Next Page (IF Have)
+5. Scroll Down and go to 
 6. Add to the cart any book
 7. Click Cart Icon
 8. Go to the Shipping page
 9. Provide your Shipping Information
 10. Log out
+
+<img width="863" alt="Untitled-Map 1 (1)" src="https://github.com/Sayid1218/Rokomari_Automation_Test/assets/97175166/4b4d02d6-76af-4800-9d56-077f2b376955">
+
