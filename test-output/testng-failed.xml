@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rokomari Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SignIn(failed)">
+    <classes>
+      <class name="com.Rokomari.tests.SignInWithGoogleTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="SignInWithGooglePOpUp"/>
+          <include name="close"/>
+          <include name="SignIn"/>
+          <include name="start"/>
+          <include name="SignInWithGoogleButton"/>
+          <include name="SignInButton"/>
+        </methods>
+      </class> <!-- com.Rokomari.tests.SignInWithGoogleTest -->
+    </classes>
+  </test> <!-- SignIn(failed) -->
+  <test thread-count="5" name="Menu(failed)">
+    <classes>
+      <class name="com.Rokomari.tests.HomePageTest">
+        <methods>
+          <include name="close"/>
+          <include name="start"/>
+          <include name="LekhokButton"/>
+        </methods>
+      </class> <!-- com.Rokomari.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Menu(failed) -->
+  <test thread-count="5" name="writer Page(failed)">
+    <classes>
+      <class name="com.Rokomari.tests.WriterPageTest">
+        <methods>
+          <include name="Cart"/>
+          <include name="close"/>
+          <include name="Checbox"/>
+          <include name="NextPage"/>
+          <include name="AddCart"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- com.Rokomari.tests.WriterPageTest -->
+    </classes>
+  </test> <!-- writer Page(failed) -->
+  <test thread-count="5" name="Order Page(failed)">
+    <classes>
+      <class name="com.Rokomari.tests.OrderPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="FilterCheckbox"/>
+          <include name="start"/>
+          <include name="SingOut"/>
+        </methods>
+      </class> <!-- com.Rokomari.tests.OrderPageTest -->
+    </classes>
+  </test> <!-- Order Page(failed) -->
+</suite> <!-- Failed suite [Rokomari Test] -->

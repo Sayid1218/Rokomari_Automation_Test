@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-20T12:05:56 BDT" name="Rokomari Test" finished-at="2023-09-20T12:06:12 BDT" duration-ms="15844">
+    <groups>
+    </groups>
+    <test started-at="2023-09-20T12:05:56 BDT" name="SignIn" finished-at="2023-09-20T12:06:12 BDT" duration-ms="15654">
+      <class name="com.Rokomari.tests.SignInWithGoogleTest">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.Rokomari.tests.SignInWithGoogleTest@712625fd]" started-at="2023-09-20T12:05:56 BDT" name="openUrl" finished-at="2023-09-20T12:06:00 BDT" duration-ms="3583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="SignIn()[pri:0, instance:com.Rokomari.tests.SignInWithGoogleTest@712625fd]" started-at="2023-09-20T12:06:00 BDT" name="SignIn" finished-at="2023-09-20T12:06:05 BDT" duration-ms="5079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method signature="SignInButton()[pri:0, instance:com.Rokomari.tests.SignInWithGoogleTest@712625fd]" started-at="2023-09-20T12:06:05 BDT" name="SignInButton" finished-at="2023-09-20T12:06:05 BDT" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInButton -->
+        <test-method signature="SignInWithGoogleButton()[pri:0, instance:com.Rokomari.tests.SignInWithGoogleTest@712625fd]" started-at="2023-09-20T12:06:05 BDT" name="SignInWithGoogleButton" finished-at="2023-09-20T12:06:05 BDT" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInWithGoogleButton -->
+        <test-method signature="SignInWithGooglePOpUp()[pri:0, instance:com.Rokomari.tests.SignInWithGoogleTest@712625fd]" started-at="2023-09-20T12:06:05 BDT" name="SignInWithGooglePOpUp" finished-at="2023-09-20T12:06:12 BDT" duration-ms="6845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInWithGooglePOpUp -->
+      </class> <!-- com.Rokomari.tests.SignInWithGoogleTest -->
+    </test> <!-- SignIn -->
+    <test started-at="2023-09-20T12:06:12 BDT" name="Menu" finished-at="2023-09-20T12:06:12 BDT" duration-ms="28">
+      <class name="com.Rokomari.tests.HomePageTest">
+        <test-method signature="LekhokButton()[pri:0, instance:com.Rokomari.tests.HomePageTest@70ed52de]" started-at="2023-09-20T12:06:12 BDT" name="LekhokButton" finished-at="2023-09-20T12:06:12 BDT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LekhokButton -->
+      </class> <!-- com.Rokomari.tests.HomePageTest -->
+    </test> <!-- Menu -->
+    <test started-at="2023-09-20T12:06:12 BDT" name="writer Page" finished-at="2023-09-20T12:06:12 BDT" duration-ms="66">
+      <class name="com.Rokomari.tests.WriterPageTest">
+        <test-method signature="Checbox()[pri:-1, instance:com.Rokomari.tests.WriterPageTest@76494737]" started-at="2023-09-20T12:06:12 BDT" name="Checbox" finished-at="2023-09-20T12:06:12 BDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checbox -->
+        <test-method signature="NextPage()[pri:-1, instance:com.Rokomari.tests.WriterPageTest@76494737]" started-at="2023-09-20T12:06:12 BDT" name="NextPage" finished-at="2023-09-20T12:06:12 BDT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NextPage -->
+        <test-method signature="AddCart()[pri:0, instance:com.Rokomari.tests.WriterPageTest@76494737]" started-at="2023-09-20T12:06:12 BDT" name="AddCart" finished-at="2023-09-20T12:06:12 BDT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCart -->
+        <test-method signature="Cart()[pri:0, instance:com.Rokomari.tests.WriterPageTest@76494737]" started-at="2023-09-20T12:06:12 BDT" name="Cart" finished-at="2023-09-20T12:06:12 BDT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cart -->
+      </class> <!-- com.Rokomari.tests.WriterPageTest -->
+    </test> <!-- writer Page -->
+    <test started-at="2023-09-20T12:06:12 BDT" name="Order Page" finished-at="2023-09-20T12:06:12 BDT" duration-ms="62">
+      <class name="com.Rokomari.tests.OrderPageTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.Rokomari.tests.OrderPageTest@6d60fe40]" started-at="2023-09-20T12:05:51 BDT" name="start" finished-at="2023-09-20T12:05:56 BDT" duration-ms="4792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="FilterCheckbox()[pri:0, instance:com.Rokomari.tests.OrderPageTest@6d60fe40]" started-at="2023-09-20T12:06:12 BDT" name="FilterCheckbox" finished-at="2023-09-20T12:06:12 BDT" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterCheckbox -->
+        <test-method signature="SingOut()[pri:0, instance:com.Rokomari.tests.OrderPageTest@6d60fe40]" started-at="2023-09-20T12:06:12 BDT" name="SingOut" finished-at="2023-09-20T12:06:12 BDT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingOut -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.Rokomari.tests.OrderPageTest@6d60fe40]" started-at="2023-09-20T12:06:12 BDT" name="close" finished-at="2023-09-20T12:06:14 BDT" duration-ms="2041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.Rokomari.tests.OrderPageTest -->
+    </test> <!-- Order Page -->
+  </suite> <!-- Rokomari Test -->
+</testng-results>
