@@ -1,5 +1,4 @@
-# Rokomari_Automation_Test
-
+# https://www.rokomari.com/static/200/images/rokomari_logo.png Rokomari_Automation_Test
 ## Project 01
 Url: https://www.rokomari.com/
 Question:
